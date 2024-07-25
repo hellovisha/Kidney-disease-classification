@@ -1,7 +1,7 @@
 import os  # Module to interact with the operating system
 from box.exceptions import BoxValueError  # Exception handling from the Box library
 import yaml  # Module to work with YAML files
-from cnnClassifier import logger  # Importing the logger from the cnnClassifier module
+from src.cnnClassifier import logger  # Importing the logger from the cnnClassifier module
 import json  # Module to work with JSON files
 import joblib  # Module to save and load Python objects as binary files
 from ensure import ensure_annotations  # Decorator to enforce type annotations
